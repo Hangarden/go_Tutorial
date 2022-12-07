@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef86b9c-bde5-499a-8327-7ad897b2f4ee" name="Changes" comment="" />
+    <list default="true" id="2ef86b9c-bde5-499a-8327-7ad897b2f4ee" name="Changes" comment="now practice error..">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/Arrays/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/Arrays/array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/For/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/For/for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/Functions/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/Functions/functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/Functions/myexample/function1.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/Functions/myexample/function1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/MultipleReturn/tutorial.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/MultipleReturn/tutorial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/Range/range.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/Range/range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/Slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/Slices/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/closer/tutorial.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/closer/tutorial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/constant/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/constant/constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/error/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/ifElse/ifelse.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/ifElse/ifelse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/maps/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/method/method.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/method/method.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/pointer/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/pointer/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/quiz/quiz1/triangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/quiz/quiz1/triangle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/quiz/quiz2/triangle2.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/quiz/quiz2/triangle2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/quiz/quiz3/quiz3.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/quiz/quiz3/quiz3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/quiz/quiz4/quiz4.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/quiz/quiz4/quiz4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/recursive/recursive.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/recursive/recursive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/rune.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/rune.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/struct/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/struct/struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/switch/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/switch/switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/values/values.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/values/values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/variable/varraibles.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/variable/varraibles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/variadic/tutorial.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/Gotutorial/variadic/tutorial.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,13 +80,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial/excel/ex1" />
+      <recent name="$PROJECT_DIR$/tutorial/Gotutorial" />
+      <recent name="$PROJECT_DIR$/tutorial/tutorial" />
       <recent name="$PROJECT_DIR$/tutorial/Functions/myexample" />
       <recent name="$PROJECT_DIR$/tutorial/quiz/quiz2" />
-      <recent name="$PROJECT_DIR$/tutorial/quiz/quiz1" />
-      <recent name="$PROJECT_DIR$/tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_Tutorial/tutorial/method">
+  <component name="RunManager" selected="Go Build.go build go_Tutorial/tutorial/excel/ex2">
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <toRun name="go build go_Tutorial" type="GoApplicationRunConfiguration" />
       <method v="2" />
@@ -72,67 +101,67 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Tutorial/tutorial/closer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Tutorial/tutorial/Lunch/feedback/ver2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_Tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Tutorial/tutorial/closer" />
+      <package value="go_Tutorial/tutorial/Lunch/feedback/ver2" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tutorial/closer/tutorial.go" />
+      <filePath value="$PROJECT_DIR$/tutorial/Lunch/feedback/ver2/recursive.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Tutorial/tutorial/method" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Tutorial/tutorial/excel/ex2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_Tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Tutorial/tutorial/method" />
+      <package value="go_Tutorial/tutorial/excel/ex2" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tutorial/method/method.go" />
+      <filePath value="$PROJECT_DIR$/tutorial/excel/ex2/ex2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Tutorial/tutorial/pointer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Tutorial/tutorial/excel/ex3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_Tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Tutorial/tutorial/pointer" />
+      <package value="go_Tutorial/tutorial/excel/ex3" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tutorial/pointer/pointer.go" />
+      <filePath value="$PROJECT_DIR$/tutorial/excel/ex3/ex3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Tutorial/tutorial/recursive" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Tutorial/tutorial/excel/ex4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_Tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Tutorial/tutorial/recursive" />
+      <package value="go_Tutorial/tutorial/excel/ex4" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tutorial/recursive/recursive.go" />
+      <filePath value="$PROJECT_DIR$/tutorial/excel/ex4/ex4.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_Tutorial/tutorial/struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_Tutorial/tutorial/excel/ex5" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_Tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_Tutorial/tutorial/struct" />
+      <package value="go_Tutorial/tutorial/excel/ex5" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tutorial/struct/struct.go" />
+      <filePath value="$PROJECT_DIR$/tutorial/excel/ex5/ex5.go" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Compound.Unnamed" />
       <item itemvalue="Go Build.go build go_Tutorial" />
-      <item itemvalue="Go Build.go build go_Tutorial/tutorial/closer" />
-      <item itemvalue="Go Build.go build go_Tutorial/tutorial/method" />
-      <item itemvalue="Go Build.go build go_Tutorial/tutorial/pointer" />
-      <item itemvalue="Go Build.go build go_Tutorial/tutorial/recursive" />
-      <item itemvalue="Go Build.go build go_Tutorial/tutorial/struct" />
+      <item itemvalue="Go Build.go build go_Tutorial/tutorial/Lunch/feedback/ver2" />
+      <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex2" />
+      <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex3" />
+      <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex4" />
+      <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_Tutorial/tutorial/method" />
-        <item itemvalue="Go Build.go build go_Tutorial/tutorial/struct" />
-        <item itemvalue="Go Build.go build go_Tutorial/tutorial/pointer" />
-        <item itemvalue="Go Build.go build go_Tutorial/tutorial/recursive" />
-        <item itemvalue="Go Build.go build go_Tutorial/tutorial/closer" />
+        <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex2" />
+        <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex5" />
+        <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex4" />
+        <item itemvalue="Go Build.go build go_Tutorial/tutorial/excel/ex3" />
+        <item itemvalue="Go Build.go build go_Tutorial/tutorial/Lunch/feedback/ver2" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +180,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="now practice error.." />
+    <option name="LAST_COMMIT_MESSAGE" value="now practice error.." />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
   </component>
@@ -158,7 +191,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/tutorial/For/for.go</url>
+          <url>file://$PROJECT_DIR$/tutorial/Gotutorial/For/for.go</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

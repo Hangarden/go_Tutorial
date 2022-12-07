@@ -5,13 +5,6 @@ import (
 	"unicode/utf8"
 )
 
-package main
-
-import (
-"fmt"
-"unicode/utf8"
-)
-
 func main() {
 
 	const s = "สวัสดี" // hello in thai
@@ -27,7 +20,7 @@ func main() {
 
 	//rune이 32바이트니까 192바이트라는 소리인가? 바이트를 측정해보자
 
-	for idx, runeValue := range s {  //runeValue는 글자 수 출력. idx 0,1,2,3,4,5
+	for idx, runeValue := range s { //runeValue는 글자 수 출력. idx 0,1,2,3,4,5
 		fmt.Printf("%#U starts at %d\n", runeValue, idx)
 	}
 
