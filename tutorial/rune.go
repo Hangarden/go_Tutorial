@@ -2,43 +2,45 @@ package main
 
 import (
 	"fmt"
-	"unicode/utf8"
+	"math"
+	"math/rand"
+	"time"
 )
 
+func judge(temp1 float64) int {
+	var temp2 = math.Floor(temp1)
+	var temp3 = temp1 - temp2
+
+	if temp3 <= 0.5 {
+		math.Ceil(temp1)
+	} else {
+		math.Floor(temp1)
+	}
+	return int(temp1)
+}
+
+func lunchTeam(slice []string, totalTeamPeoPle int, teamCount int) [][]string {
+	var data [][]string
+	var teamPerPeople = float64(totalTeamPeoPle) / float64(teamCount)
+	if teamCount > totalTeamPeoPle {
+		fmt.Println("각자도생")
+	} else if totalTeamPeoPle%teamCount == 0 {
+		for i := 0; i < teamCount; i++ {
+			team := slice[int(teamPerPeople)*i : int(teamPerPeople)*(i+1)]
+			fmt.Printf("%v \n", team)
+			data = append(data, team)
+		}
+	} else {
+		var temp1 = judge(teamPerPeople)
+		team := slice[:int(temp1)]
+		fmt.Printf("%v \n", team)
+		data = append(data, team)
+		data = append(data, lunchTeam(slice[int(temp1):], totalTeamPeoPle-int(temp1), teamCount-1)...)
+	}
+	return data
+}
+
 func main() {
-
-	const s = "สวัสดี" // hello in thai
-
-	fmt.Println("Len:", len(s)) //길이 측정
-
-	for i := 0; i < len(s); i++ { //s의 길이만큼 반복해서
-		fmt.Printf("%x ", s[i]) //각각의 유니코드를 출력
-	}
-	fmt.Println() //줄바꿈
-
-	fmt.Println("Rune count:", utf8.RuneCountInString(s)) //Rune카운트는 몇개? String에서 Rune카운트
-
-	//rune이 32바이트니까 192바이트라는 소리인가? 바이트를 측정해보자
-
-	for idx, runeValue := range s { //runeValue는 글자 수 출력. idx 0,1,2,3,4,5
-		fmt.Printf("%#U starts at %d\n", runeValue, idx)
-	}
-
-	fmt.Println("\nUsing DecodeRuneInString")
-	for i, w := 0, 0; i < len(s); i += w {
-		runeValue, width := utf8.DecodeRuneInString(s[i:])
-		fmt.Printf("%#U starts at %d\n", runeValue, i)
-		w = width
-
-		examineRune(runeValue)
-	}
-}
-
-func examineRune(r rune) {
-
-	if r == 't' {
-		fmt.Println("found tee")
-	} else if r == 'ส' {
-		fmt.Println("found so sua")
-	}
-}
+	rand.Seed(time.Now().UnixNano())
+	var slice = []string{"Reacher", "Juda", "Liam", "Zora", "Aiden", "Cindy",
+		"Tommy", "Lina", "Garden", "전민수", "민경욱", "최두영", "신채연", "엄태혁", "신정연", "박종휘", "조수아", "한정원"} //배열의 개수를 적지
